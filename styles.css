@@ -19,11 +19,11 @@
 
 body {
   display: flex;
-  margin-top: 5rem;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background-color: var(--color-lightgray);
+  min-height: 100vh;
 }
 
 .card {
@@ -33,17 +33,16 @@ body {
   padding: 2rem;
   background-color: var(--color-white);
   border-radius: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
   margin-bottom: 2rem;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  max-width: 320px;
 }
 
 .card img {
   border-radius: 20px;
-  width: 300px;
+  width: 110%;
 }
 
 .card-text {
@@ -62,19 +61,4 @@ body {
   text-align: center;
 }
 
-.attribution {
-  position: absolute;
-  bottom: 0;
-}
 
-@media screen and (min-width: 1440px) {
-  
-    .card {
-       
-       
-        margin-left: 25%;
-        margin-right: 25%;
-        
-      }
-
-  }

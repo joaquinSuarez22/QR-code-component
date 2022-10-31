@@ -54,6 +54,7 @@ body {
 .card-text h1 {
   color: var(--color-darkblue);
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .card-text p {
